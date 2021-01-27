@@ -41,6 +41,18 @@ exports.getuserinfo = async(req,res,next) => {
 //       res.json(user); 
 //    });
 
+        
+// db.userinfos.aggregate([
+//             {
+//                 "$lookup":
+//                   {
+//                     from: 'users',
+//                     localField: "user_id",
+//                     foreignField: "_id",
+//                     as: "UserDetails"
+//                   }
+//              }
+//         ]);        
 
 
 //AGGREGATE
